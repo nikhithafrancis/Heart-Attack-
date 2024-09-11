@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Attack Risk Prediction</title>
+</head>
+<body>
+    <h1>Heart Attack Risk Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+
+        <label for="cholesterol">Cholesterol:</label>
+        <input type="number" step="any" id="cholesterol" name="cholesterol" required><br><br>
+
+        <label for="blood_pressure">Blood Pressure:</label>
+        <input type="number" id="blood_pressure" name="blood_pressure" required><br><br>
+
+        <label for="heart_rate">Heart Rate:</label>
+        <input type="number" id="heart_rate" name="heart_rate" required><br><br>
+
+        <label for="diabetes">Diabetes:</label>
+        <input type="number" id="diabetes" name="diabetes" required><br><br>
+
+        <label for="family_history">Family History:</label>
+        <input type="number" id="family_history" name="family_history" required><br><br>
+
+        <label for="smoking">Smoking:</label>
+        <input type="number" id="smoking" name="smoking" required><br><br>
+
+        <label for="obesity">Obesity:</label>
+        <input type="number" id="obesity" name="obesity" required><br><br>
+
+        <label for="Alcohol_Consumption">Alcohol Consumption:</label>
+        <input type="number" id="Alcohol_Consumption" name="Alcohol Consumption" required><br><br>
+
+        <label for="Exercise_Hours_Per_Week">Exercise Hours Per Week:</label>
+        <input type="number" step="any" id="Exercise_Hours_Per_Week" name="Exercise Hours Per Week" required><br><br>
+
+        <label for="Diet">Diet:</label>
+        <input type="number" id="Diet" name="Diet" required><br><br>
+
+        <label for="Previous_Heart_Problem">Previous Heart Problem:</label>
+        <input type="number" id="Previous_Heart_Problem" name=" Previous Heart Problem" required><br><br>
+
+        <label for="Medication_Use">Medication Use:</label>
+        <input type="number" id="Medication_Use" name="Medication Use" required><br><br>
+
+        <label for="Stress_Level">Stress Level:</label>
+        <input type="number" id="Stress_Level" name="Stress Level" required><br><br>
+
+        <label for="Sedentary_Hours_Per_Day">Sedentary Hours Per Day:</label>
+        <input type="number" step="any" id="Sedentary_Hours_Per_Day" name="Sedentary_Hours_Per Day" required><br><br>
+
+        <label for="Income">Income:</label>
+        <input type="number" id="Income" name="Income" required><br><br>
+
+        <label for="bmi">BMI:</label>
+        <input type="number" step="any" id="bmi" name="bmi" required><br><br>
+
+        <label for="triglycerides">Triglycerides:</label>
+        <input type="number" step="any" id="triglycerides" name="triglycerides" required><br><br>
+
+        <label for="physical_activity">Physical Activity Days Per Week:</label>
+        <input type="number" id="physical_activity" name="physical_activity" required><br><br>
+
+        <label for="sleep_hours">Sleep Hours Per Day:</label>
+        <input type="number" id="sleep_hours" name="sleep_hours" required><br><br>
+
+        <input type="submit" value="Predict Risk">
+    </form>
+</body>
+</html>
+
+      
+
